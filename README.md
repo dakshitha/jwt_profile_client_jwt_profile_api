@@ -9,6 +9,6 @@ Service User Using JWT Profile to invoke API Secured Using JWT Profile in ZITADE
   `python3 jwt_profile_token_generator.py`
 7. Set an environment variable called TOKEN to the access token that was generated. e.g., `TOKEN=<Access_Token_From_Previous_Step>`
 8. Once you have obtained the access token from the script, you can use it to make API requests using curl commands.
-`curl -X GET http://localhost:5000/api/public`
-`curl -X GET -H "Authorization: Bearer $TOKEN" http://localhost:5000/api/private`
-`curl -X GET -H "Authorization: Bearer $TOKEN" http://localhost:5000/api/private-scoped`
+- `curl -X GET http://localhost:5000/api/public`
+- `curl -X GET -H "Authorization: Bearer $TOKEN" http://localhost:5000/api/private`
+- `curl -X GET -H "Authorization: Bearer $TOKEN" http://localhost:5000/api/private-scoped`
