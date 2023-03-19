@@ -1,5 +1,5 @@
 # jwt_profile_client_jwt_profile_api
-Service User Using JWT Profile to invoke API Secured Using JWT Profile in ZITADEL
+Service User Using JWT Profile to Invoke API Secured Using JWT Profile in ZITADEL
 1. Install Python 3.9 or later.
 2. Install project dependencies by running the following command in the project directory: pip install -r requirements.txt
 3. Replace the values in the .env file with own values. 
